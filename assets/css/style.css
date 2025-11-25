@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("../fonts/JetBrainsMono-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("../fonts/JetBrainsMono-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
 /* Color stuffz */
 :root {
     --base: #1e1e2e;
@@ -13,7 +27,7 @@ body {
     padding: 0;
     background: var(--base);
     color: var(--text);
-    font-family: "Inter", Arial, sans-serif;
+    font-family: "JetBrains Mono", monospace;
     display: flex;
     flex-direction: column;
     align-items: center;
