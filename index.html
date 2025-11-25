@@ -1,154 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-   <link rel="icon" type="image/png" href="favicon.png" />
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Small's Stuff</title>
-      <style>
-         /* Color stuffz */
-         :root {
-            --base: #1e1e2e;
-            --mantle: #181825;
-            --crust: #11111b;
-            --text: #cdd6f4;
-            --subtext: #bac2de;
-            --lavender: #b4befe;
-            --overlay: #313244;
-         }
-
-         body {
-            margin: 0;
-            padding: 0;
-            background: var(--base);
-            color: var(--text);
-            font-family: "Inter", Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-         }
-
-         header {
-            margin-top: 50px;
-            text-align: center;
-         }
-
-         .avatar {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 4px solid var(--lavender);
-            box-shadow: 0 0 25px var(--lavender);
-         }
-
-         h1 {
-            margin-top: 20px;
-            font-size: 2.2rem;
-            color: var(--lavender);
-         }
-
-         main {
-            margin-top: 30px;
-            background: var(--mantle);
-            padding: 30px;
-            border-radius: 12px;
-            width: min(90%, 700px);
-            box-shadow: 0 0 25px #0005;
-            text-align: center;
-         }
-
-         p {
-            color: var(--subtext);
-            line-height: 1.6;
-         }
-
-         .social-buttons {
-            margin-top: 25px;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 15px;
-         }
-
-         .social-btn {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            padding: 12px 18px;
-            background: var(--lavender);
-            color: var(--crust);
-            font-weight: bold;
-            border-radius: 8px;
-            text-decoration: none;
-            transition: 0.2s;
-         }
-
-         .social-btn:hover {
-            filter: brightness(1.1);
-            transform: translateY(-2px);
-            box-shadow: 0 0 15px var(--lavender);
-         }
-
-         .social-btn svg {
-            width: 20px;
-            height: 20px;
-            fill: var(--crust);
-         }
-
-         footer {
-            margin-top: auto;
-            padding: 20px;
-            color: var(--subtext);
-         }
-      </style>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="icon" type="image/png" href="favicon.png" />
    </head>
-
    <body>
       <header>
          <img
             class="avatar"
             src="https://github.com/SmallSmallXD.png"
             alt="Profile Picture"
-         />
+            />
          <h1>SmallXD</h1>
       </header>
-
       <main>
          <p>Welcome! This page is currently under construction.</p>
          <p>I will be adding some more stuff here eventually! ^^</p>
-
          <div class="social-buttons">
             <a
                class="social-btn"
                href="https://github.com/SmallSmallXD"
                target="_blank"
-            >
+               >
                <svg viewBox="0 0 20 20">
                   <path
                      fill="currentColor"
                      d="M10 0c5.523 0 10 4.59 10 10.253 0 4.529-2.862 8.371-6.832 9.728-.507.101-.687-.219-.687-.492v-2.814c0-1.013-.343-1.673-.72-2.009 2.227-.254 4.567-1.121 4.567-5.059 0-1.12-.388-2.034-1.03-2.752.104-.259.447-1.302-.098-2.714 0 0-.838-.275-2.747 1.051A9.34 9.34 0 0 0 10 4.958c-.85.004-1.705.118-2.503.345-1.911-1.326-2.751-1.051-2.751-1.051-.543 1.412-.2 2.455-.096 2.714-.639.718-1.03 1.632-1.03 2.752 0 3.928 2.335 4.808 4.556 5.067-.29.256-.549.708-.639 1.371-.57.262-2.018.715-2.91-.852 0 0-.529-1.035-1.533-1.107 0 0-.975-.013-.068.623 0 0 .655.315 1.11 1.5 0 0 .587 1.83 3.369 1.21.005.857.014 1.665.014 1.909 0 .271-.184.589-.683.494C2.862 18.625 0 14.782 0 10.253 0 4.59 4.477 0 10 0z"
-                  />
+                     />
                </svg>
                GitHub
             </a>
-
             <a
                class="social-btn"
                href="https://steamcommunity.com/profiles/76561198332098506"
                target="_blank"
-            >
+               >
                <svg viewBox="0 0 32 32">
                   <path
                      fill="currentColor"
                      d="M18.102 12.129c0-1.564 1.268-2.831 2.831-2.831s2.831 1.268 2.831 2.831-1.267 2.831-2.831 2.831c-1.563 0-2.83-1.267-2.83-2.83zm6.589.006c0-2.081-1.687-3.768-3.768-3.768s-3.768 1.687-3.768 3.768c0 2.081 1.687 3.768 3.768 3.768 2.08-.003 3.765-1.688 3.768-3.767zM10.427 23.76l-1.841-.762c.524 1.078 1.611 1.808 2.868 1.808 1.317 0 2.448-.801 2.93-1.943.155-.362.246-.784.246-1.226 0-1.757-1.424-3.181-3.181-3.181-.405 0-.792.076-1.148.213l1.903.787c.852.364 1.439 1.196 1.439 2.164 0 1.296-1.051 2.347-2.347 2.347-.324 0-.632-.066-.913-.184zM15.974 1.004c-7.857.001-14.301 6.046-14.938 13.738l8.038 3.322c.668-.462 1.495-.737 2.387-.737.079 0 .156.005.235.008l3.575-5.176c.003-3.12 2.533-5.648 5.653-5.648 3.122 0 5.653 2.531 5.653 5.653s-2.531 5.653-5.653 5.653h-.131l-5.094 3.638c0 .065.005.131.005.199 0 2.342-1.899 4.241-4.241 4.241-2.047 0-3.756-1.451-4.153-3.38l-5.755-2.383C3.39 26.318 9.15 30.878 15.974 30.878c8.281 0 14.994-6.713 14.994-14.994S24.255.99 15.974.99z"
-                  />
+                     />
                </svg>
                Steam
             </a>
          </div>
       </main>
-
       <footer>
          © 2025 SmallSmallXD
       </footer>
