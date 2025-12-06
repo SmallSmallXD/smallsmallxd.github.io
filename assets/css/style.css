@@ -86,10 +86,11 @@ p {
     transform: translateY(-2px);
     box-shadow: 0 0 15px var(--lavender);
 }
-.social-btn svg {
+.social-btn img.icon {
     width: 20px;
     height: 20px;
-    fill: var(--crust);
+    margin-right: 8px;
+    vertical-align: middle;
 }
 footer {
     margin-top: auto;
