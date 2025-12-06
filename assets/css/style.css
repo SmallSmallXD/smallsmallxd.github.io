@@ -89,8 +89,7 @@ p {
 .social-btn img.icon {
     width: 20px;
     height: 20px;
-    margin-right: 8px;
-    vertical-align: middle;
+    fill: var(--crust);
 }
 footer {
     margin-top: auto;
